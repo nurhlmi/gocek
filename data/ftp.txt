@@ -1,0 +1,15 @@
+
+		  gocek.rf.gd
+
+FTP
+------------------------------------------
+host			: ftpupload.net
+username		: epiz_23722647
+password		: GOCEK12
+
+
+Database
+------------------------------------------
+host			: sql200.epizy.com
+username		: epiz_23722647
+password		: GOCEK12

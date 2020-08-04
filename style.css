@@ -1,0 +1,343 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #eaebef;
+	margin-bottom: 225px;
+	font-family: century gothic;
+}
+
+h1 {
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+hr {
+	margin-top: 50px;
+	border-top: 1px solid silver;
+}
+small {
+	color: #95a5a6;
+	font-size: 25px;
+	font-family: arial;
+}
+
+img {
+	width: 100%
+}
+
+select {
+	width: 100%;
+	border: none;
+	font-size: 35px;
+	background: white;
+	outline: none;
+}
+select option[disabled] {
+    display: none;
+}
+
+input {
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+	border-bottom: #eaebef 1px solid;
+}
+
+input.input-verify {
+	width: 25%;
+	color: black;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+input.input-reset {
+	width: 50%;
+	color: white;
+	border: none;
+	outline: none;
+	text-align: center;
+	margin-top: 13px;
+	border-radius: 3px;
+}
+
+.red		{color: #e74c3c;}
+.yellow		{color: #f39c12;}
+.orange		{color: #e67e22;}
+.blueold	{color: #2980b9;}
+.blue		{color: #3498db;}
+.greenold	{color: #27ae60;}
+.green		{color: #2ecc71;}
+.greenn		{color: #1abc9c;}
+.silver		{color: #95a5a6;}
+
+.bg-white	{background-color: white;}
+.bg-red		{background-color: #e74c3c;}
+.bg-yellow	{background-color: #f39c12;}
+.bg-orange	{background-color: #e67e22;}
+.bg-blueold	{background-color: #2980b9;}
+.bg-blue	{background-color: #3498db;}
+.bg-greenold{background-color: #27ae60;}
+.bg-green	{background-color: #2ecc71;}
+.bg-greenn	{background-color: #1abc9c;}
+.bg-silver	{background-color: #95a5a6;}
+
+.gi-2x{font-size: 1.7em;}
+.gi-3x{font-size: 2.7em;}
+.gi-4x{font-size: 3.7em;}
+.gi-5x{font-size: 4.7em;}
+
+.text-menu {
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+.text {
+	font-size: 32px;
+	color: #95a5a6;
+	font-weight: none;
+	font-family: arial;
+}
+
+.text-notice {
+	font-size: 35px;
+	color: #e74c3c;
+}
+
+.title {
+	font-size: 30px;
+	color: silver;
+}
+
+.form, .form-head {
+	background: white;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+.form-head {
+	top: 0;
+	width: 100%;
+	padding: 40px;
+	position: fixed;
+	border-bottom: 1px solid silver;
+	z-index: 1;
+}
+.form-list {
+	padding: 40px;
+	background: white;
+	margin-bottom: 40px;
+}
+
+.head {
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	background: white;
+	z-index: 1;
+}
+
+.news {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 1px solid silver;
+}
+
+.logo {
+	width: 220px;
+}
+.welcome {
+	width: 100%;
+	margin: 0 auto;
+	padding: 120px 120px;
+}
+.company {
+	width: 500px;
+}
+
+.produk {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.pay {
+	margin-top: 50px;
+	color: white;
+}
+.payhead {
+	padding: 20px 40px 20px 40px;
+	background: #27ae60;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.paybody {
+	padding: 30px;
+	background: #2ecc71;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+}
+.paymenu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: 0.1s;
+}
+.paymenu:active {
+	border-radius: 10px;
+	background-color: #27ae60;
+}
+.paymore {
+	margin-top: 50px;
+}
+
+.menu {
+	margin-top: 50px;
+	text-align: center;
+}
+.list {
+	padding: 50px;
+	border-radius: 50px;
+	border: 1px solid silver;
+	transition: 0.1s;
+}
+.list:active {
+	background: #eaebef;
+}
+
+.list-ticket {
+	padding: 50px;
+	background: white;
+	border-bottom: 1px solid silver;
+}
+.list-ticket:active {
+	background-color: #eaebef;
+}
+
+.bars {
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #eaebef;
+}
+.bars-menu {
+	transition: 0.1s;
+}
+.bars-menu:hover {
+	color: #2ecc71;
+}
+
+.btn-gocek {
+	width: 100%;
+	border: none;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border-radius: 3px;
+	transition: fade;
+	outline: none;
+	letter-spacing: 0px;
+}
+.btn-gocek:active {
+	opacity: 0.6;
+}
+
+.btn-next {
+	width: 100%;
+	border: none;
+	color: white;
+	padding: 15px 15px;
+	transition: fade;
+	outline: none;
+	position: fixed;
+	bottom: 0;
+}
+.btn-next:active {
+	opacity: 0.6;
+}
+
+.btn-click {
+	border: none;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 12px;
+	outline: none;
+	transition: fade;
+}
+.btn-click:active {
+	opacity: 0.6;
+}
+
+.btn-modal {
+	font-size: 40px;
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.btn-fb {
+	border: none;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+	background: #3b5999;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.label-ticket {
+	top: 30px;
+	right: 40px;
+	position: absolute;
+}
+
+.checkout {
+	margin-top: 40px;
+}
+
+/* Modal */
+.modal {
+	font-size: 75px;
+}
+.modal-dialog {
+    width: 100%;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+}
+.full {
+	height: 100%;
+}
+.half {
+	height: 50%;
+}
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    color:#333;
+}
+.modal-header {
+	padding: 50px;
+}
+.close {
+	margin-right: 20px;
+	font-size: 75px;
+	outline: none;
+}
+.modal.fade .modal-dialog {
+  transform: translate3d(0, 100vh, 0);
+}
+.modal.in .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}

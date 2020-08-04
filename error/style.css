@@ -1,0 +1,25 @@
+body {
+	background-color: #2ecc71;
+}
+
+img {
+	width: 100%;
+}
+
+.article {
+	margin: 0 auto;
+	padding-top: 150px;
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+	font-family: futura pt;
+	font-size: 15pt;
+}
+
+.icon {
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 100px;
+	background-color: white;
+	border-radius: 6px;
+}
